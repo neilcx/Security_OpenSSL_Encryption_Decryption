@@ -1,7 +1,7 @@
 Use the openssl library to write functions for encryption and decryption.
 
-fscrypt.cc is inplemented with block cipher method.
-fscrypt.cc2 is inplemented with block cipher method.
+fscrypt.cc is implemented with block cipher method in CBC (Cipher Block Chain) mode.
+fscrypt2.cc is implemented with block cipher method in ECB (Electronic Codebook) mode.
 
 The code is tested on Ubuntu 14.04, works goood.
 
