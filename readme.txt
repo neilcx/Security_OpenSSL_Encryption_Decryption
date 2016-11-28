@@ -57,7 +57,8 @@ application code is responsible for deleting the buffer.
 	Assume that the initialization vector contains NULL characters 
 	(all 0's).
 	Description of blowfish functions can be found at 
-	http://www.openssl.org/docs/crypto/blowfish.html
+	//http://www.openssl.org/docs/crypto/blowfish.html
+	https://www.openssl.org/docs/man1.0.2/crypto/blowfish.html
 	Use the following functions to faciliate your work:
 	BF_set_key: use all characters of the keystr, excluding NULL terminator.  
 Valid keystr is assumed to be a string.
